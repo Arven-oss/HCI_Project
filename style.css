@@ -1,0 +1,367 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-image 1s ease-in-out;
+}
+
+.center-text {
+    text-align: center;
+    color: white;
+}
+
+.center-text1 {
+    text-align: center;
+    color:#000;
+}
+
+.home-background {
+    background-image: url('gary.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-background {
+    background-image: url('heet.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-background {
+    background-image: url('heet.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ps-background {
+    background-image: url('ps.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.xbox-background {
+    background-image: url('xboxer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.nin-background {
+    background-image: url('nint.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background: #D9D9D9;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.header-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    width: 80px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.top-right-nav {
+    display: flex; 
+    gap: 15px;
+    font-weight: bold; 
+}
+
+.symbol-icon {
+    width: 500px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.top-right-button {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.top-right-button:hover,
+.top-right-button:active {
+    color: blue;
+}
+
+section {
+    background: #ffffff; 
+    padding: 20px; 
+    margin: 10px auto; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background: url('1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    padding: 80px 20px;
+    height: 400px;
+    max-width: 100%;
+    transition: background 1s ease;
+}
+
+footer {
+  background-color: #D9D9D9;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact-button {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+form {
+    background: #000000;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    overflow-x: auto;
+    gap: 50px;
+}
+
+.image-box {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.image-box img {
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-box p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #D9D9D9;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+#updates-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#updates-list li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#updates-list img {
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    background-color: transparent; 
+    margin: 20px auto;
+    max-width: 800px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.console-handheld-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.console-section,
+.handheld-section {
+    padding: 10px; 
+    background-color: transparent; 
+    font-size: large;
+}
+
+.console-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    flex-direction: row;
+    background-image: url('gamer.jpg');
+    padding: 15px;         
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.console-button {
+    position: relative;
+    text-decoration: none;
+    color: white; 
+    overflow: hidden; 
+}
+
+.console-button img {
+    width: 300px;
+    height: auto; 
+    border-radius: 10px; 
+    transition: opacity 0.3s ease; 
+}
+
+.console-button .hover-img {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+    display: none;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.console-button:hover .default-img {
+    opacity: 0; 
+}
+
+.console-button:hover .hover-img {
+    display: block;
+    opacity: 1;
+}
+
+
+.console-figure {
+    text-align: center;
+    margin: 30px auto; 
+    max-width: 300px; 
+}
+
+.console-image {
+    width: 100%; 
+    height: auto;
+}
+
+.console-figure figcaption {
+    margin-top: 8px; 
+    color: #ffffff; 
+}
+
+#contact-form {
+    display: flex;                
+    flex-direction: column;      
+    align-items: center;         
+    max-width: 400px;          
+    margin: 0 auto;              
+    padding: 20px;               
+    border: 1px solid #ccc;     
+    border-radius: 10px;         
+    background-color: #fafafa;   
+}
+
+#contact-form div {
+    margin-bottom: 15px;         
+    width: 100%;                 
+}
+
+#contact-form label {
+    margin-bottom: 5px;          
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;                 
+    padding: 10px;               
+    border: 1px solid #ccc;      
+    border-radius: 5px;         
+}
+
+#contact-form button {
+    padding: 10px 20px;          
+    border: none;               
+    border-radius: 5px;          
+    background-color: #007BFF;  
+    color: white;                
+    cursor: pointer;             
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;  
+}
+
